@@ -19,6 +19,7 @@ int main () {
   double fatMG = (mg / somaTotal) * 100;
   double fatES = (es / somaTotal) * 100;
   double fatOutros = (outros / somaTotal) * 100;
+  
   printf("\n\n");
   printf("O faturamento de todos os estados foi de R$%.2f\n\n", somaTotal);
   printf("=========================================================\n");

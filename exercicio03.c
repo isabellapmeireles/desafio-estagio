@@ -9,6 +9,7 @@ b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Est
 
 #include <stdio.h>
 #include <locale.h>
+#include <stdlib.h>
 
 int main () {
   setlocale(LC_ALL, "Portuguese");
